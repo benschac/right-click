@@ -4,5 +4,26 @@
   "description": "Save your NFT metadata to the perma-web or locally",
   "main": "index.js",
   "author": "Benjamin Schachter",
-  "license": "MIT"
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "client"
+  ],
+  "lint-staged": {
+    "client/src/**/*.{js,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2",
+    "prettier": "2.5.1"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "lint-staged"
+  }
 }
