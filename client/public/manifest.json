@@ -1,0 +1,9 @@
+{
+  "short_name": "right-click",
+  "name": "Save your NFT metadata to the perma-web or locally",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
