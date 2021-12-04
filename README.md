@@ -12,6 +12,7 @@ Store NFT collection with its metadata on the perma-web or locally with a single
 ## Solution
 
 Original idea credit [nnnnicholas](https://twitter.com/nnnnicholas)
+
 <img width="500" alt="Screen Shot 2021-12-04 at 2 48 34 PM" src="https://user-images.githubusercontent.com/2502947/144722722-b073deca-5951-4713-8014-4c9dc6b5966e.png">
 
 - Users should be able to sign in with their Ethereum wallet, load their NFT collection
