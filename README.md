@@ -1,5 +1,3 @@
-# right-click
-
 <img width="1347" alt="Screen Shot 2021-12-05 at 1 59 01 AM" src="https://user-images.githubusercontent.com/2502947/144736993-26371282-4178-4982-a48c-76fea0c0482f.png">
 
 ## Problem:
