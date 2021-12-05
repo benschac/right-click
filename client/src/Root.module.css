@@ -24,7 +24,12 @@
 
 ul {
   list-style: none;
+}
+
+h5 {
   font-family: var(--font-sans);
+  font-weight: var(--font-weight-4);
+  letter-spacing: 0.01em;
 }
 
 .hero {
@@ -36,8 +41,12 @@ ul {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 80px repeat(12, 1fr) 80px;
-  gap: var(--size-4);
-  grid-template-areas: ". c c c c c c . img img img img img .";
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: var(--size-4);
+  row-gap: var(--size-13);
+  grid-template-areas:
+    ". c c c c c c . img img img img img ."
+    ". pImg pImg pImg pImg pImg . pInfo pInfo pInfo pInfo pInfo pInfo .";
   padding: var(--size-8) 0;
 }
 
@@ -46,7 +55,7 @@ ul {
   align-self: center;
 }
 
-.contentWrapper h1 {
+h1 {
   background-image: var(--gradient-4);
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -58,4 +67,17 @@ ul {
 
 .heroImg img {
   border-radius: var(--radius-blob-5);
+}
+
+.problemImg {
+  grid-area: pImg;
+}
+
+.problemImg img {
+  border-radius: var(--radius-blob-4);
+}
+
+.problemContent {
+  grid-area: pInfo;
+  align-self: center;
 }

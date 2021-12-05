@@ -1,5 +1,7 @@
 # right-click
 
+<img width="1554" alt="Screen Shot 2021-12-05 at 1 55 48 AM" src="https://user-images.githubusercontent.com/2502947/144736908-1dad9a5a-6aa8-4f08-8f28-0d54888be90b.png">
+
 Store NFT collection with its metadata on the perma-web or locally with a single click.
 
 ## Problem:
