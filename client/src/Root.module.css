@@ -3,6 +3,7 @@
   gap: var(--size-4);
   grid-template-columns: 80px repeat(12, 1fr) 80px;
   grid-template-areas: ". . logo logo . . . . . . app abt gh .";
+  padding: var(--size-8) 0;
 }
 
 .logo {
@@ -23,6 +24,7 @@
 
 ul {
   list-style: none;
+  font-family: var(--font-sans);
 }
 
 .hero {
@@ -30,4 +32,30 @@ ul {
   font-size: var(--font-size-fluid-3);
   font-weight: var(--font-weight-9);
   font-family: var(--font-sans);
+  height: 70vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 80px repeat(12, 1fr) 80px;
+  gap: var(--size-4);
+  grid-template-areas: ". c c c c c c . img img img img img .";
+  padding: var(--size-8) 0;
+}
+
+.contentWrapper {
+  grid-area: c;
+  align-self: center;
+}
+
+.contentWrapper h1 {
+  background-image: var(--gradient-4);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heroImg {
+  grid-area: img;
+}
+
+.heroImg img {
+  border-radius: var(--radius-blob-5);
 }

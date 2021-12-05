@@ -12,8 +12,4 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: var(--gradient-3);
-  /* force colors and noise to collide */
-  /* fit noise image to element */
-  background-size: cover;
 }
