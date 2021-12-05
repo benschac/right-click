@@ -1,6 +1,10 @@
 @import "https://unpkg.com/open-props/src/index.css";
 @import "https://unpkg.com/open-props/src/extra/normalize.css";
 
+#root {
+  height: 100vh;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -8,4 +12,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: var(--gradient-3);
+  /* force colors and noise to collide */
+  /* fit noise image to element */
+  background-size: cover;
 }

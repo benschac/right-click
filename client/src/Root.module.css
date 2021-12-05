@@ -1,0 +1,33 @@
+.header {
+  display: grid;
+  gap: var(--size-4);
+  grid-template-columns: 80px repeat(12, 1fr) 80px;
+  grid-template-areas: ". . logo logo . . . . . . app abt gh .";
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.app {
+  grid-area: app;
+}
+
+.about {
+  grid-area: abt;
+}
+
+.github {
+  grid-area: gh;
+}
+
+ul {
+  list-style: none;
+}
+
+.hero {
+  line-height: var(--font-lineheight-1);
+  font-size: var(--font-size-fluid-3);
+  font-weight: var(--font-weight-9);
+  font-family: var(--font-sans);
+}
