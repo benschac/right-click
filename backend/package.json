@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Benjamin Schachter",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.ts"
+  },
+  "dependencies": {
+    "apollo-server": "^3.5.0",
+    "apollo-server-core": "^3.5.0",
+    "apollo-server-express": "^3.5.0",
+    "client": "0.1.0",
+    "contracts": "0.1.0",
+    "express": "^4.17.1",
+    "graphql": "^16.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.11.11",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}

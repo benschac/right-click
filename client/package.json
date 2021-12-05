@@ -19,7 +19,9 @@
     "react-scripts": "4.0.3",
     "stylelint-config-standard": "^24.0.0",
     "typescript": "^4.1.2",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "backend": "0.1.0",
+    "contracts": "0.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
