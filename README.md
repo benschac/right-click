@@ -2,8 +2,6 @@
 
 <img width="1347" alt="Screen Shot 2021-12-05 at 1 59 01 AM" src="https://user-images.githubusercontent.com/2502947/144736993-26371282-4178-4982-a48c-76fea0c0482f.png">
 
-Store NFT collection with its metadata on the perma-web or locally with a single click.
-
 ## Problem:
 
 - JPEGs are stored on CDN’s.
